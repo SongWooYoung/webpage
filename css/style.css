@@ -305,6 +305,88 @@ p {
     border-radius: 3px;
 }
 
+/* 학습 목록 스타일 */
+.study-list {
+    list-style: none;
+    padding: 0;
+}
+
+.study-list li {
+    margin: 1.5rem 0;
+    padding: 1.5rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    border-left: 4px solid #3498db;
+    transition: all 0.3s;
+}
+
+.study-list li:hover {
+    background-color: #e8f4f8;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.study-list a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.study-date {
+    display: block;
+    color: #7f8c8d;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.study-title {
+    display: block;
+    color: #2c3e50;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.study-desc {
+    color: #555;
+    margin: 0.5rem 0 0 0;
+    line-height: 1.5;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+    margin-bottom: 1.5rem;
+    padding: 0.75rem;
+    background-color: #ecf0f1;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+.breadcrumb a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+/* 뒤로가기 링크 */
+.back-link {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 2px solid #ecf0f1;
+}
+
+.back-link a {
+    color: #3498db;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.back-link a:hover {
+    text-decoration: underline;
+}
+
 /* 프로필 섹션 */
 .profile {
     margin: 2rem 0;
